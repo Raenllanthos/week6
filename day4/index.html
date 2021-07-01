@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/poop.css">
+        <script src="js/cum.js" defer></script>
+        <title>Movies and Music</title>
+    </head>
+    <body>
+        <div class="container">
+            <button onclick="stopSnippet()">Stop Song</button> <!-- add on click -->
+            <div class="gallery"> <!-- add listeners on figures -->
+                <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                    <img class="gallery__img" src="images/Us-poster.jpg" alt="chug jug with you leviathon">
+                </figure>
+                
+                <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                    <img class="gallery__img" src="images/badboys-poster.jpg" alt="send the pain below chevelle">
+                </figure>
+
+                <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                    <img class="gallery__img" src="images/color-purple-poster.jpg" alt="juicy doja cat">
+                </figure>
+
+                <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                    <img class="gallery__img" src="images/harriet-poster.jpg" alt="i sat by the ocean queens of the stone age">
+                </figure>
+
+                <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                    <img class="gallery__img" src="images/ray-poster.jpg" alt="yakkity sax">
+                </figure>
+
+                <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                    <img class="gallery__img" src="images/what'slove-poster.jpg" alt="505 arctic monkeys">
+                </figure>
+            </div>
+        </div>
+    </body>
+</html>
