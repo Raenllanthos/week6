@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <link rel="stylesheet" href="css.css">
+        <script src="js.js" defer></script>
+        <title>F1 Car Thing</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="col">
+                <h1 class="title">F1 Car</h1>
+            </div>
+            <div class="row">
+                    <form name="carData" id="carDataForm">
+                        <label for="season">Season:</label>
+                        <input type="text" name="season" id="season">
+                        
+                        <label for="round">Round:</label>
+                        <input type="text" name="round" id="round">
+                        
+                        <button type="submit" id="submitButton" onclick="loadData()">Search</button>
+                    </form>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Position</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Nationality</th>
+                        <th scope="col">Sponsor</th>
+                        <th scope="col">Points</th>
+                        <th scope="col">Season</th>
+                    </tr>
+                </thead>
+                <tbody class="carList">
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
