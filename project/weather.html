@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="ass.css">
+        <link rel="icon" href="ico/favicon.ico"  type="icon">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+        <script src="butt.js"></script>
+        
+        <title>Cullen's Weather</title>
+    </head>
+    <body>
+        <div class="card">
+            <h1>Search For a Town, Find its Current Weather!</h1>
+            <form>
+                <input type="text" name="city" id="city">
+                <button type="button" onclick="getWeather()">Search</button>
+            </form>
+            <div class="card-title cityName"></div>
+            <div class="forecastTitle card-subtitle"></div>
+            <p class="forecast card-text"></p>
+            <div class="highTitle card-subtitle"></div>
+            <p class="high card-text"></p>
+            <div class="lowTitle card-subtitle"></div>
+            <p class="low card-text"></p>
+            <div class="humidityTitle card-subtitle"></div>
+            <p class="humidity card-text"></p>
+            <div class="locationTitle card-subtitle"></div>
+            <p class="location card-text"></p>
+        </div>
+    </body>
+</html>
